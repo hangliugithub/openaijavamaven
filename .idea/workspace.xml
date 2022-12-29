@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a97b985-8004-404e-8169-233ab68f5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.tgitconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/DeleteResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/ImageGenerations/ImageGenerationsData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/ImageGenerations/ImageGenerationsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/ImageGenerations/ImageGenerationsResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/OpenAiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/Usage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/answer/AnswerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/answer/AnswerResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/answer/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/classification/ClassificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/classification/ClassificationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/classification/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/completion/CompletionChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/completion/CompletionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/completion/CompletionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/completion/LogProbResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/edit/EditChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/edit/EditRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/edit/EditResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/edit/EditUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/embedding/Embedding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/embedding/EmbeddingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/embedding/EmbeddingResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/engine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/file/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/finetune/FineTuneEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/finetune/FineTuneRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/finetune/FineTuneResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/finetune/HyperParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/model/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/moderation/Moderation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/moderation/ModerationCategories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/moderation/ModerationCategoryScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/moderation/ModerationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/moderation/ModerationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/search/SearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/search/SearchResult.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/DeleteResult.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsData.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsRequest$ImageGenerationsRequestBuilder.class" afterDir="false" />
@@ -98,22 +50,6 @@
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchRequest$SearchRequestBuilder.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchRequest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/theokanning/openai/AuthenticationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/theokanning/openai/OpenAiApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/theokanning/openai/OpenAiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/AnswerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/ClassificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/CompletionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/EditTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/EmbeddingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/EngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/FineTuneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/ModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/ModerationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/theokanning/openai/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test/resources/fine-tuning-data.jsonl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/AuthenticationInterceptor.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/OpenAiApi.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/OpenAiService.class" afterDir="false" />
@@ -129,11 +65,8 @@
       <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/ModerationTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/SearchTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/target/test-classes/fine-tuning-data.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/example/OpenAiApiExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo/target/classes/example/OpenAiApiExample.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/openaijavamaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -141,6 +74,7 @@
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored mask="*.iml" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,13 +98,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="175">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/DeleteResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
@@ -178,6 +126,11 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openaijavamaven.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -221,43 +174,6 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/theokanning/openai/OpenAiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="115" column="27" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-                <element signature="e#6898#6899#0" expanded="true" />
-                <element signature="e#6960#6961#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/theokanning/openai/OpenAiApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/ImageGenerations/ImageGenerationsResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -357,53 +273,7 @@
             <path>
               <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
               <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="theokanning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openaijavamaven" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="theokanning" type="462c0819:PsiDirectoryNode" />
-              <item name="openai" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openaijavamaven" type="b2602c69:ProjectViewProjectNode" />
@@ -421,7 +291,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -430,6 +300,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\cpic\openaijavamaven\api" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.theokanning.openai.ImageGenerations" />
     </key>
@@ -551,8 +424,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672217226274</updated>
-      <workItem from="1672217234995" duration="10927000" />
+      <workItem from="1672217234995" duration="11143000" />
     </task>
+    <task id="LOCAL-00001" summary="openai-api 请求demo">
+      <created>1672294904643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672294904643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -588,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10927000" />
+    <option name="totallyTimeSpent" value="11143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
@@ -631,6 +512,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="openai-api 请求demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="openai-api 请求demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,13 +860,6 @@
     <entry file="file://$PROJECT_DIR$/.tgitconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -989,6 +867,26 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openaijavamaven.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/DeleteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
