@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a97b985-8004-404e-8169-233ab68f5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/DeleteResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsRequest$ImageGenerationsRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/ImageGenerations/ImageGenerationsResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/OpenAiResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/Usage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/answer/AnswerRequest$AnswerRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/answer/AnswerRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/answer/AnswerResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/answer/Document.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/classification/ClassificationRequest$ClassificationRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/classification/ClassificationRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/classification/ClassificationResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/classification/Example.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/completion/CompletionChoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/completion/CompletionRequest$CompletionRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/completion/CompletionRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/completion/CompletionResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/completion/LogProbResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/edit/EditChoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/edit/EditRequest$EditRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/edit/EditRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/edit/EditResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/edit/EditUsage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/embedding/Embedding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/embedding/EmbeddingRequest$EmbeddingRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/embedding/EmbeddingRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/embedding/EmbeddingResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/engine/Engine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/file/File.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/finetune/FineTuneEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/finetune/FineTuneRequest$FineTuneRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/finetune/FineTuneRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/finetune/FineTuneResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/finetune/HyperParameters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/model/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/Moderation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/ModerationCategories.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/ModerationCategoryScores.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/ModerationRequest$ModerationRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/ModerationRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/moderation/ModerationResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchRequest$SearchRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/theokanning/openai/search/SearchResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/AuthenticationInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/OpenAiApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/theokanning/openai/OpenAiService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/AnswerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/ClassificationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/CompletionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/EditTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/EmbeddingTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/EngineTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/FileTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/FineTuneTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/ModelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/ModerationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/com/theokanning/openai/SearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/test-classes/fine-tuning-data.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/example/OpenAiApiExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openaijavamaven.iml" afterDir="false" />
-    </list>
+    <list default="true" id="4a97b985-8004-404e-8169-233ab68f5031" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/client/target/" />
@@ -95,13 +29,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="117">
+              <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -164,16 +103,6 @@
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -297,7 +226,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -424,7 +353,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672217226274</updated>
-      <workItem from="1672217234995" duration="11143000" />
+      <workItem from="1672217234995" duration="13446000" />
     </task>
     <task id="LOCAL-00001" summary="openai-api 请求demo">
       <created>1672294904643</created>
@@ -433,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672294904643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改ingone">
+      <created>1672295004761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672295004762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -469,7 +405,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11143000" />
+    <option name="totallyTimeSpent" value="13446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
@@ -483,7 +419,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039744" side_tool="true" visible="true" weight="0.2456" />
       <window_info anchor="bottom" id="Messages" weight="0.32933652" />
       <window_info anchor="bottom" id="Sequence Diagram" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -491,7 +427,7 @@
       <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960256" visible="true" weight="0.2456" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +451,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="openai-api 请求demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="openai-api 请求demo" />
+    <MESSAGE value="修改ingone" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改ingone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,13 +808,6 @@
     <entry file="file://$PROJECT_DIR$/openaijavamaven.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/theokanning/openai/DeleteResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -887,6 +817,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
